@@ -17,7 +17,10 @@ Command level documentation is provide in the run_analysis.R script.
 ####  	Packages 
 This script uses the melt and decast functions from the reshape2 package.  This script will install the package reshape2 if it is not already installed.
 	
-	
+####  Note:
+README.txt in the directory "UCI HAR Dataset" contains information reagrding the experiement and available data files.  
+P1lease review this information.
+
 ####	Input Data
 * 'features.txt' - meaningful labels for the measured data (in X train and test)
 * 'train/X_train.txt' - measured feature data
@@ -37,7 +40,7 @@ Additional detail regarding the input is available in this repo in codebook.md
 *	Use _rbind_ to combine the datasets from train and test
 *	Use _cbind_ to combine subject labels, activity labels, and measured data
 *	Use _melt_ and _decast_ to reduce the dataset down to only the means of our selected variables and the identifiers
-*	Use write.table to write the resulting tidy dataset.
+*	Use write.csv to write the resulting tidy dataset.
 
 ####	Output Table
 
