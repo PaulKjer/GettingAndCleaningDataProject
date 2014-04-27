@@ -1,5 +1,6 @@
+#  Getting and Cleaning Data PRoject r script
 
-#  Outline of Approach
+#  Approach Summary (outlined below)
 
 #  *  Read the data using _read.table_.  We assume 'UCI HAR Dataset' is in the working directory and set _file.path_ 		based on that assumption.
 #  *  Limit the data to only features pertaining to mean and standard deviation by reading features.txt and using grep to identify the columns we want then subsetting the measured data to only those columns
