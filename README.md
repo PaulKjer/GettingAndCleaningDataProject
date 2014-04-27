@@ -19,7 +19,7 @@ This script uses the melt and decast functions from the reshape2 package.  This 
 	
 ####  Note:
 README.txt in the directory "UCI HAR Dataset" contains information reagrding the experiement and available data files.  
-P1lease review this information.
+Please review this information.
 
 ####	Input Data
 * 'features.txt' - meaningful labels for the measured data (in X train and test)
