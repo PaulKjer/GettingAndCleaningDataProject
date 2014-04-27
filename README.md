@@ -1,5 +1,5 @@
-GettingAndCleaningDataProject
-=============================
+Getting And Cleaning Data Project
+=================================
 
 The script required to run this analysis can be found in **run_analysis.R** in this repo.
 Command level documentation is provide in the run_analysis.R script.
@@ -15,7 +15,7 @@ Command level documentation is provide in the run_analysis.R script.
 	is the only desired output. 
 
 ####  	Packages 
-This script uses the melt and dcast functions from the reshape2 package.  This script will install the package reshape2 if it is not already installed.
+This script uses the melt and decast functions from the reshape2 package.  This script will install the package reshape2 if it is not already installed.
 	
 	
 ####	Input Data
