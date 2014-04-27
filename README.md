@@ -27,6 +27,8 @@ This script uses the melt and decast functions from the reshape2 package.  This 
 * 'test/y_test.txt' - activity labels for the measured data
 * 'test/subject_test.txt' - subject labels for the measured data
 
+Additional detail regarding the input is available in this repo in codebook.md
+
 
 ####	Outline of Approach
 *	Read the data using _read.table_.  We assume 'UCI HAR Dataset' is in the working directory and set _file.path_ 		based on that assumption.
@@ -41,6 +43,7 @@ This script uses the melt and decast functions from the reshape2 package.  This 
 
 The output table is a comma delimited CSV table **tidydataset.txt** written to the  with the structure outlined in the table below.  (Note that the table has the extension .txt even though it is a valid .csv table to avoid Coursera upload issues).
 
+Additional detail regarding the output is available in codebook.md in this repo. 
 
 | subject |  activity  |  tBodyAcc-mean()-X | 77 Other Measured Variables (total of 79) | fBodyBodyGyroJerkMag-meanFreq()|
 |-------------|-----------------|-----------------------|---|----------------------|
