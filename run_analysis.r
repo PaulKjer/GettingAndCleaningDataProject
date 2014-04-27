@@ -1,4 +1,13 @@
-# Read the measured data for both train and test and combine them into one dataset
+
+#  Outline of Approach
+
+#  *  Read the data using _read.table_.  We assume 'UCI HAR Dataset' is in the working directory and set _file.path_ 		based on that assumption.
+#  *  Limit the data to only features pertaining to mean and standard deviation by reading features.txt and using grep to identify the columns we want then subsetting the measured data to only those columns
+#  *  assign meaningful labels to the activities (from Y train and test) by subsetting the six numeric activities one at a time and assigning the corresponding label from activity label.
+#  *  Use _rbind_ to combine the datasets from train and test
+#  *  Use _cbind_ to combine subject labels, activity labels, and measured data
+#  *  Use _melt_ and _decast_ to reduce the dataset down to only the means of our selected variables and the identifiers
+#  *  Use write.table to write the resulting tidy dataset.# Read the measured data for both train and test and combine them into one dataset
 
         #  Read X_train
         path_X_train <- file.path("UCI HAR Dataset","train","X_train.txt")
