@@ -1,4 +1,4 @@
-#  Getting and Cleaning Data PRoject r script
+#  Getting and Cleaning Data Project r Script
 
 #  Approach Summary (outlined below)
 
